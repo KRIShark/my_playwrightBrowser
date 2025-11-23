@@ -10,10 +10,14 @@ Install directly from this repository:
 pip install .
 ```
 
-Or, if you prefer `uv` to manage dependencies in lock-step:
+```sh
+pip install "git+https://github.com/KRIShark/my_playwrightBrowser.git"
+```
+
+or with `uv`
 
 ```sh
-uv install
+uv pip install "git+https://github.com/KRIShark/my_playwrightBrowser.git"
 ```
 
 After installation the package exposes all tools under the `playwrightBrowser` namespace.
