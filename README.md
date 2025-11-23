@@ -10,6 +10,8 @@ Install directly from this repository:
 pip install .
 ```
 
+Install directly from this github:
+
 ```sh
 pip install "git+https://github.com/KRIShark/my_playwrightBrowser.git"
 ```
