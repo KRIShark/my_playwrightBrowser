@@ -1,5 +1,6 @@
 # my_playwrightBrowser
 PlaywrightBrowser is a tiny toolkit of Playwright-backed browser tools. It wraps common actions such as navigation, element inspection, hyperlink extraction, and page text collection in Pydantic-friendly tools so you can plug them straight into agent frameworks, CLI helpers, or automation scripts.
+Original at https://github.com/microsoft/playwright
 
 ## Installation
 
@@ -9,10 +10,16 @@ Install directly from this repository:
 pip install .
 ```
 
-Or, if you prefer `uv` to manage dependencies in lock-step:
+Install directly from this github:
 
 ```sh
-uv install
+pip install "git+https://github.com/KRIShark/my_playwrightBrowser.git"
+```
+
+or with `uv`
+
+```sh
+uv pip install "git+https://github.com/KRIShark/my_playwrightBrowser.git"
 ```
 
 After installation the package exposes all tools under the `playwrightBrowser` namespace.
